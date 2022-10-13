@@ -1,3 +1,4 @@
+crash
 // C program for Merge Sort
 #include <stdio.h>
 #include <stdlib.h>
@@ -64,7 +65,7 @@ void merge(int arr[], int l,
 		k++;
 	}
 }
-
+crash
 // l is for left index and r is
 // right index of the sub-array
 // of arr to be sorted
@@ -85,7 +86,7 @@ void mergeSort(int arr[],
 	}
 }
 
-// UTILITY FUNCTIONS
+delete crash
 // Function to print an array
 void printArray(int A[], int size)
 {
@@ -95,7 +96,8 @@ void printArray(int A[], int size)
 	printf("\n");
 }
 
-// Driver code
+// Driver code 
+//
 int main()
 {
 	int arr[] = {12, 11, 13, 5, 6, 7};
